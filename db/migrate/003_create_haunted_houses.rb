@@ -4,7 +4,8 @@ class Create_Haunted_Houses < ActiveRecord::Migration
     create_table :haunted_houses do |c|
       c.string :name
       c.string :location
-      c.integer :costume_inventory
+      c.string :theme
+      c.integer :price
       c.integer :number_of_employees
       c.boolean :in_business?
       c.time_stamp :opening_time
