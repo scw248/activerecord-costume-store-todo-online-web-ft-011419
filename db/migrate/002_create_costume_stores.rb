@@ -10,4 +10,4 @@ class Create_Costume < ActiveRecord::Migration
       c.time_stamp :updated_at
     end
   end
-end# Create your costume_stores migration here
+end
