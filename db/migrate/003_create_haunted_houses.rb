@@ -1,7 +1,7 @@
-class Create_Costume_Stores < ActiveRecord::Migration
+class Create_Haunted_Houses < ActiveRecord::Migration
   
   def change
-    create_table :costume_stores do |c|
+    create_table :haunted_houses do |c|
       c.string :name
       c.string :location
       c.integer :costume_inventory
@@ -11,4 +11,4 @@ class Create_Costume_Stores < ActiveRecord::Migration
       c.time_stamp :closing_time
     end
   end
-end# Create your haunted_houses migration here
+end
